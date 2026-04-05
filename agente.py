@@ -2,15 +2,12 @@ import datetime
 import random
 from typing import Dict, List
 
-# ==========================================
 # ALIAS DE TIPOS
-# ==========================================
 Recuerdo = Dict[str, str]
 MemoriaAgente = List[Recuerdo]
 
-# ==========================================
 # CLASE BASE
-# ==========================================
+
 class PseudoAgente:
     # AUDITORÍA: Una variable temporal (como una declarada directamente dentro de una función) 
     # desaparece de la memoria en cuanto la función termina de ejecutarse. 
